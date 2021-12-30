@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="../css/style.css" type="">
+
+  <title>Air</title>
+</head>
+<body>
+  <div class="main-content">
+    {{>header}}
+    <p>측정 장소 : <span id='messagn-0'>{{location}}</span></p>
+    <p>측정 시각 : <span id='messagn-1'>{{time}}</span></p>
+    <p>pm-10 : <span id='messagn-2'>{{pm-10}}</span></p>
+    <p>pm-25 : <span id='messagn-3'>{{pm-25}}</span></p>
+
+
+    {{>footer}}
+  </div>
+
+</body>
+</html>
